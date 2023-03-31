@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Resizer and Downloader</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1>Resize and Download Images</h1>
+    <p>
+        This application allows you to resize and download images in different dimensions.
+        First, select an image from your device using the file input below. The selected image will be previewed on the
+        page.
+        Next, click on one of the download buttons to download the image in the corresponding size (16x16, 32x32, or
+        48x48 pixels).
+    </p>
+
+
     <input type="file" id="image-input" accept="image/*">
     <div id="preview"></div>
     <div id="download-buttons">
@@ -18,4 +29,5 @@
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>
