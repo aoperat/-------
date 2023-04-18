@@ -5,6 +5,8 @@ document.getElementById('download-16x16').addEventListener('click', () => downlo
 document.getElementById('download-32x32').addEventListener('click', () => downloadImage(32));
 document.getElementById('download-48x48').addEventListener('click', () => downloadImage(48));
 document.getElementById('download-128x128').addEventListener('click', () => downloadImage(128));
+document.getElementById('download-256x256').addEventListener('click', () => downloadImage(256));
+document.getElementById('download-1024x1024').addEventListener('click', () => downloadImage(1024));
 
 function loadImage(event) {
     const file = event.target.files[0];
